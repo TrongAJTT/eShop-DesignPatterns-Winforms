@@ -1,4 +1,4 @@
-**Để xem phiên bản Tiếng Việt, vui lòng truy cập vào đây.**
+**Để xem phiên bản Tiếng Việt, vui lòng [truy cập vào đây](README.md).**
 
 3S eShop is a project for the Design Patterns course, including a Winforms software to manage electronic component sales integrated with design patterns.
 
@@ -121,7 +121,7 @@ Note: Many other pre-created accounts in the database also have the password 123
 
 ## 1. Resource Images, Icons
 
-- [[Author Attributes]]
+- [Author Attributes](Resources/Author%20Attributes.md)
 
 ## 2. Packages used
 

@@ -1,4 +1,4 @@
-**To view the English version, please visit here.**
+**To view the English version, please [visit here](README-en.md).**
 
 3S eShop là một dự án phục vụ cho môn học Mẫu Thiết Kế (Design Patterns), bao gồm phần mềm Winforms quản lý bán linh kiện điện tử có tích hợp các mẫu thiết kế.
 
@@ -104,7 +104,8 @@ Ghi chú: Nhiều tài khoản khác được cấp sẵn trong CSDL cũng có m
 ---
 # Trích nguồn & đóng góp của tác giả
 ## 1. Ảnh tài nguyên, icon
-- [[Author Attributes]]
+
+- [Author Attributes](Resources/Author%20Attributes.md)
 ## 2. Package sử dụng
 | Tên Package                                | Phiên bản | Công dụng                                                              | Giấy phép   |
 | ------------------------------------------ | --------- | ---------------------------------------------------------------------- | ----------- |
@@ -116,6 +117,7 @@ Ghi chú: Nhiều tài khoản khác được cấp sẵn trong CSDL cũng có m
 | System.Data.SqlClient                      | 4.8.3     | Kết nối và thao tác với SQL Server                                     | MIT License |
 | System.Security.Cryptography.ProtectedData | 4.3.0     | Mã hóa và giải mã dữ liệu dựa trên Windows Data Protection API (DPAPI) | MIT License |
 | System.ValueTuple                          | 4.0.3     | Hỗ trợ kiểu dữ liệu tuple                                              | MIT License |
+
 ## 3. Trích dẫn
 - Custom Toast Message:
 	- https://laptrinhvb.net/bai-viet/devexpress/---Csharp----Hien-thi-thong-bao-Toast-Message-trong-lap-trinh-Winform/956187c4983d410c.html
