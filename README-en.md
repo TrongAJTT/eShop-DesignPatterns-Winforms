@@ -1,4 +1,4 @@
-**Để xem phiên bản Tiếng Việt, vui lòng [truy cập vào đây](README.md).**
+**🇻🇳 Để xem phiên bản Tiếng Việt, vui lòng [truy cập vào đây](README.md).**
 
 3S eShop is a project for the Design Patterns course, including a Winforms software to manage electronic component sales integrated with design patterns.
 
@@ -31,6 +31,24 @@ The project is for academic purposes and internal non-commercial use. For commer
   - Distributed Redis database.
   - Simple one-way AES-256 encryption (in production, this would be implemented on the backend).
 - The group decided to build a product of moderate scale to apply design patterns, focusing on product workflow. Therefore, the architecture only has the client-side connecting directly to the database and data storage, without a server. The group acknowledges this architecture is extremely insecure because the client needs the secret to operate (by standard, the secret MUST be on the server). However, the product's purpose is to apply operational processes, so this is acceptable for internal use only. For product expansion and production deployment, a separate backend should be built to handle data-related logic.
+
+---
+# Design Patterns Applied in the Project:
+
+| No. | Name             | Purpose                                                                                                                                                                                                                                                             |
+| --- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Singleton        | - Logging to file.<br>- Provide a single instance to access the database.                                                                                                                                                                                           |
+| 2   | Strategy         | Validate the content of a TextBox by creating a Custom TextBox.                                                                                                                                                                                                     |
+| 3   | Command          | Enable and disable system buttons.                                                                                                                                                                                                                                 |
+| 4   | Simple Factory   | Create User Controls for the MainForm.                                                                                                                                                                                                                              |
+| 5   | Abstract Factory | Provide multi-database connection functionality for the software (MySQL, SQL Server).                                                                                                                                                                               |
+| 6   | Observer         | Update the system's OTP countdown status and monitor the progress of product creation/update.                                                                                                                                                                        |
+| 7   | Decorator        | Filter data displayed to the user.                                                                                                                                                                                                                                  |
+| 8   | Facade           | Encapsulate common behaviors such as add, delete, and edit into a single class; complexity is managed by the Facade class.                                                                                                                                           |
+| 9   | Builder          | Separate the object initialization process from the class structure, making the code easier to read and maintain, and avoiding the need to write many constructors or complex initialization methods.                                                             |
+| 10  | Template Method  | Reduce code duplication when operations share the same logic flow, increase maintainability by requiring changes to the common process to be made only in one place, fulfilling the Open/Closed Principle in SOLID.                                                   |
+| 11  | Flyweight        | Optimize memory usage and speed up loading when displaying many duplicate images on the screen.                                                                                                                                                                      |
+| 12  | State            | Manage the state of a confirmation button that requires being pressed twice.                                                                                                                                                                                        |
 
 ---
 # Instructions to run and continue development:

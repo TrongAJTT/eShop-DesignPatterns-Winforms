@@ -1,4 +1,4 @@
-**To view the English version, please [visit here](README-en.md).**
+**🇬🇧 To view the English version, please [visit here](README-en.md).**
 
 3S eShop là một dự án phục vụ cho môn học Mẫu Thiết Kế (Design Patterns), bao gồm phần mềm Winforms quản lý bán linh kiện điện tử có tích hợp các mẫu thiết kế.
 
@@ -30,6 +30,24 @@ Dự án phục vụ cho mục đích học thuật và sử dụng nội bộ p
 	- Cơ sở dữ liệu phân tán Redis.
 	- Mã hóa AES-256 đơn giản một chiều (triển khai production đương nhiên sẽ nằm ở backend).
 - Nhóm quyết định rằng chỉ làm một sản phẩm ở quy mô vừa đủ áp dụng các pattern, tập trung vào flow hoạt động của sản phẩm. Do đó, kiến trúc ứng dụng sẽ chỉ có client-side kết nối trực tiếp đến cơ sở dữ liệu cũng như nơi lưu dữ liệu, không thông qua server. Nhóm cần phải thừa nhận rằng kiến trúc này là cực kỳ thiếu an toàn vì client cần có secret để có thể hoạt động (theo như quy chuẩn là secret PHẢI được đặt ở server). Tuy nhiên, mục đích của sản phẩm là áp dụng quy trình hoạt động nên việc này là chấp nhận được khi chương trình chỉ được sử dụng nội bộ. Về vấn đề mở rộng sản phẩm và triển khai lên production thì cần phải xây dựng riêng back-end để tách xử lý các logic liên quan đến dữ liệu.
+
+---
+# Các mẫu thiết kế áp dụng trong đồ án:
+
+| STT | Tên              | Công dụng                                                                                                                                                                                                                                                             |
+| --- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Singleton        | - Ghi log ra file.<br>- Cung cấp duy nhất một instance truy cập vào CSDL.                                                                                                                                                                                             |
+| 2   | Strategy         | Kiểm tra tính hợp lệ của nội dung trong TextBox bằng cách tạo một Custom TextBox.                                                                                                                                                                                     |
+| 3   | Command          | Chức năng enable và disable các button của hệ thống                                                                                                                                                                                                                   |
+| 4   | Simple Factory   | Tạo các User Control cho MainForm                                                                                                                                                                                                                                     |
+| 5   | Abstract Factory | Cung cấp chức năng kết nối đa CSDL cho phần mềm (MySQL, SQL Server).                                                                                                                                                                                                  |
+| 6   | Observer         | Cập nhật trạng thái chờ đếm ngược của hệ thống gửi mã OTP, theo dõi tiến trình tạo/cập nhật sản phẩm.                                                                                                                                                                 |
+| 7   | Decorator        | Lọc dữ liệu hiện lên cho người dùng.                                                                                                                                                                                                                                  |
+| 8   | Facade           | Đóng gói các hành vi thông dụng nhất như thêm, xóa, sửa vào trong một class, sự phức tạp khi này sẽ do class Facade quản lý.                                                                                                                                          |
+| 9   | Builder          | Tách biệt quá trình khởi tạo đối tượng khỏi cấu trúc lớp, giúp mã nguồn trở nên dễ đọc, dễ bảo trì và tránh được việc phải viết nhiều constructor hoặc các phương thức khởi tạo phức tạp.                                                                             |
+| 10  | Template Method  | Giúp giảm thiểu trùng lặp mã nguồn khi các thao tác chia sẻ cùng một luồng logic, đồng thời tăng tính bảo trì vì các thay đổi đối với quy trình chung chỉ cần thực hiện tại một nơi duy nhất, đáp ứng nguyên lý mở rộng–đóng kín (Open/Closed Principle) trong SOLID. |
+| 11  | Flyweight        | Tối ưu hóa việc sử dụng bộ nhớ và tăng tốc độ tải khi tải nhiều ảnh trùng lặp trên màn hình.                                                                                                                                                                          |
+| 12  | State            | Quản lý trạng thái của nút xác nhận cần nhấn 2 lần.                                                                                                                                                                                                                   |
 
 ---
 # Hướng dẫn chạy chương trình và tiếp tục phát triển chương trình:
