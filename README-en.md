@@ -5,7 +5,6 @@
 The project is for academic purposes and internal non-commercial use. For commercial use, please ensure full compliance with copyright for images used and citations in the project.
 
 ---
-
 # Team Member Information:
 
 | Member Name       | Student ID | Note |
@@ -15,7 +14,6 @@ The project is for academic purposes and internal non-commercial use. For commer
 | Nguyễn Vĩnh Hưng  | Censored   |      |
 
 ---
-
 # Brief Product Information:
 
 - The group's initial product is software to support managing electronic component sales. However, the admin can add categories as desired.
@@ -35,7 +33,6 @@ The project is for academic purposes and internal non-commercial use. For commer
 - The group decided to build a product of moderate scale to apply design patterns, focusing on product workflow. Therefore, the architecture only has the client-side connecting directly to the database and data storage, without a server. The group acknowledges this architecture is extremely insecure because the client needs the secret to operate (by standard, the secret MUST be on the server). However, the product's purpose is to apply operational processes, so this is acceptable for internal use only. For product expansion and production deployment, a separate backend should be built to handle data-related logic.
 
 ---
-
 # Instructions to run and continue development:
 
 1. Create a Google Console project:
@@ -64,15 +61,13 @@ The project is for academic purposes and internal non-commercial use. For commer
 4. Open the project in Microsoft Visual Studio and run in Debug or Release mode; the program will automatically load necessary data from the `secret_data` folder to connect to the database and Google Cloud API.
 
 ---
-
 # Screenshots
 
--
--
--
+| ![screenshot-1](https://github.com/user-attachments/assets/dd9c8bee-f27b-43ce-89e2-d3f55f4c5fe6) | ![screenshot-2](https://github.com/user-attachments/assets/a6639667-9c9a-4ee4-94f2-63b5821d06d9) | ![screenshot-3](https://github.com/user-attachments/assets/c9a65f2e-64df-49e2-8186-0a23cd45d8ef) | ![screenshot-4](https://github.com/user-attachments/assets/c3a27638-1481-4922-802e-1c0b26c420f9) |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| ![screenshot-5](https://github.com/user-attachments/assets/31373a0b-5404-4112-af17-09a46d08116e) | ![screenshot-6](https://github.com/user-attachments/assets/3ad62e38-d990-4a02-a925-2dae41ea1c66) | ![screenshot-7](https://github.com/user-attachments/assets/260f790c-855e-4901-89f5-b67c83c0a059) | ![screenshot-8](https://github.com/user-attachments/assets/417f3730-0f20-4d46-a20f-8ca1a4f399cc) |
 
 ---
-
 # Accounts
 
 Default admin account provided in the database:
@@ -83,7 +78,6 @@ Default admin account provided in the database:
 Note: Many other pre-created accounts in the database also have the password 123123.
 
 ---
-
 # Project folder structure:
 
 ```
@@ -116,7 +110,6 @@ Note: Many other pre-created accounts in the database also have the password 123
 ```
 
 ---
-
 # Credits & Author Contributions
 
 ## 1. Resource Images, Icons
