@@ -1,5 +1,5 @@
-**🇻🇳 Để xem phiên bản Tiếng Việt, vui lòng [truy cập vào đây](README.md).**
-
+🇻🇳 Để xem phiên bản Tiếng Việt, vui lòng [truy cập vào đây](README.md).
+---
 3S eShop is a project for the Design Patterns course, including a Winforms software to manage electronic component sales integrated with design patterns.
 
 The project is for academic purposes and internal non-commercial use. For commercial use, please ensure full compliance with copyright for images used and citations in the project.

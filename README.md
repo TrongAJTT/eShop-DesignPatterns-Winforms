@@ -1,5 +1,5 @@
-**🇬🇧 To view the English version, please [visit here](README-en.md).**
-
+🇬🇧 To view the English version, please [visit here](README-en.md).
+---
 3S eShop là một dự án phục vụ cho môn học Mẫu Thiết Kế (Design Patterns), bao gồm phần mềm Winforms quản lý bán linh kiện điện tử có tích hợp các mẫu thiết kế.
 
 Dự án phục vụ cho mục đích học thuật và sử dụng nội bộ phi thương mại. Để sử dụng cho mục đích thương mại, vui lòng đảm bảo tuân thủ đầy đủ bản quyền về quyền tác giả của các hình ảnh sử dụng, trích dẫn trong dự án.
